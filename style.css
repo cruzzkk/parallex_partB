@@ -3362,7 +3362,7 @@ transition: transform 0.3s;
     top: 15%;
     left: 34%;
     width: 60%;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     line-height: 1.5;
     background-color: #255eae00;
 }
@@ -4156,7 +4156,7 @@ transition: transform 0.3s;
         font-size: 36px;;
     }
     #section8_discribtionPanel_text{
-        font-size: 31px;
+        font-size: 30px;
     }
     .bottom-text{
         font-size: 31px;
