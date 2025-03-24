@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updated Parallax Webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+ </head>
+<body>
+ 
+
+  
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <div id="commonrigthTop" class="CommonTopright">
+
+          <div id="commonsound" class="Commonrighttop-container">
+            <img src="assets/Slides_25-35/Audio_button.png" alt="Sound">
+          </div>
+          <div id="commonplay" class="Commonrighttop-container">
+            <img src="assets/Slides_25-35/Plau_Button.png" alt="Play">
+          </div>
+          <div id="commonrestart" class="Commonrighttop-container">
+            <img src="assets/Slides_25-35/Replay_Button.png" alt="Restart">
+          </div>
+          <div id="fullScreen" class="Commonrighttop-container"
+            exitfullscreen="assets/Slides11-17/fullscreen.png"
+            enterfullscreen="assets/Slides11-17/Fullscreen_Exit_button.png">
+            <img src="assets/Slides11-17/fullscreen.png" alt="FullScreen">
+          </div>
+  
+    </div>
+  
+
+    <!-- First Section -->
+    <div id="section1" class="section" style="display: none;">
+      <video id="bgVideo"  >
+        <source src="assets/video/Section1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div id="nextImage">
+          <img src="assets/Slides11-17/Scroll_down_button.png" alt="NextImage">
+          <p>Scroll Down</p>
+      </div>
+    </div>
+    
+    <!-- Gap Between Sections -->
+    <div class="gap" id="gap2" style="display: none;"></div>
+
+    <!-- Second Section -->
+    <div id="section2" class="section"  style="display: none;" >
+
+      <div id="section2nextImage">
+        <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section2nextImage">
+        <p>Scroll Down</p>
+      </div>
+
+      <div class="image-container" id="wall"><!--data-speed="-0.3" data-min="-10" data-max="5" data-screen-presence="0.5"-->
+        <img src="assets/Slides11-17/Parallax_scroll_BG_updated.png" alt="Background" />
+      </div>
+      <div class="image-container" id="sun" data-speed="-0.5" data-min="-30" data-max="10" data-screen-presence="0.3">
+        <img src="assets/Slides11-17/Sun_01.png" alt="Sun">
+      </div>
+      <div class="image-container" id="mountain" data-speed="-0.5" data-min="-28" data-max="10" data-screen-presence="0.5">
+        <img src="assets/Slides11-17/Mountains_01.png" alt="Mountain">
+      </div>
+      <div class="image-container" id="house" data-speed="-0.45" data-min="-18" data-max="15" data-screen-presence="0.9">
+        <img src="assets/Slides11-17/House_CROP_2.png" alt="House">
+        <div class="image-container" id="section2tree"   data-speed="null"data-min="null" data-max="null" data-screen-presence="null">
+          <img src="assets/Slides11-17/Tree.png" alt="Section2tree">
+        </div>
+        <div class="image-container" id="garden"   data-speed="null"data-min="null" data-max="null" data-screen-presence="null">
+          <img src="assets/Slides11-17/Garden_crop.png" alt="Garden">
+        </div>
+      </div>
+
+      <div class="image-container" id="grass_toplayer"  > <!--data-speed="-0.8"data-min="-62" data-max="1" data-screen-presence="1.2" -->
+        <img src="assets/Slides11-17/Grass_top_layer_crop.png" alt="Grass_toplayer">
+      </div> 
+      
+        <!-- Octopus and Dialog Box -->
+      <div id="octopusContainer">
+        <img id="octopus" src="assets/Slides11-17/Octopus_inset.png" alt="Octopus">
+      </div>
+
+  
+      <div class="dialogBox" id="dialogBoxx" >
+        <img id="dialogBoxImage" src="assets/Slides11-17/Callout01.png" alt="DialogBoxImage">
+        <div class="text" id="dynamicText">
+          This is the dialog text
+        </div>
+      </div>
+      
+      
+
+        <!-- White Overlay -->
+      <div id="whiteOverlay">
+      </div>
+      <!-- Circle buttons -->
+      <div class="button-container" id="button1"  >
+        <img src="assets/Slides11-17/Consumers.png"  alt="Button1">
+        <div id="label1" class="label">
+          <img src="assets/Slides11-17/Consumers_text_box.png"  alt="Label1">
+          <p id="labelText">Consumer</p>
+        </div>
+        <div id="arrow1" class="arrow">
+          <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow1">
+        </div>
+      </div> 
+      <div class="button-container" id="button2"  >
+        <img src="assets/Slides11-17/Consumers01.png"  alt="Button2">
+        <div id="label2" class="label">
+          <img src="assets/Slides11-17/Producers-Consumers_text_box.png"  alt="Label2">
+          <p id="labelText">Consumer</p>
+        </div>
+        <div id="arrow2" class="arrow">
+          <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow2">
+        </div>
+      </div> 
+      <div class="button-container" id="button3" >
+        <img src="assets/Slides11-17/Decomposers.png"  alt="Button3">
+        <div id="arrow3" class="arrow">
+          <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow3">
+        </div>
+        <div id="label3" class="label">
+          <img src="assets/Slides11-17/Decomposers_text_box.png"  alt="Label3">
+          <p id="labelText">Decomposers</p>
+        </div>
+      </div> 
+      <div class="button-container" id="button4" >
+        <img src="assets/Slides11-17/Producers.png" alt="Button4">
+        <div id="arrow4" class="arrow">
+          <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow4">
+        </div>
+        <div id="label4" class="label">
+          <img src="assets/Slides11-17/Producers-Consumers_text_box.png"  alt="Label4">
+          <p id="labelText">Producers</p>
+        </div>
+      </div> 
+      <div id="section2popup">
+        <img id="section2popupimg" src="assets/Slides11-17/Popup_text_box.png" alt="Section2popupimg">
+        <h3>Consumer</h3>
+        <hr>
+        <p>Plants like tomatoes grow big and healthy because they get energy from the sun. Because they make (or produce) their own food, they are called producers.</p>
+        <div id="section2popupcross">
+          <img src="assets/Slides11-17/popup_close.png">
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Gap Between Sections -->
+    <div class="gap" id="gap3" style="display: none;"></div>
+
+    <!-- Third Section -->
+    <div id="section3" class="section"  style="display: block;">
+
+      <div id="section3nextImage">
+        <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section3nextImage">
+        <p>Scroll Down</p>
+      </div>
+
+      <div class="image-container" id="section3_BG" ><!-- data-speed="-0.4" data-min="-35" data-max="10" -->
+        <img src="assets/Slides18-20/Sky_corp.png" alt="Section3_BG">
+      </div>
+      <div class="image-container" id="section3_sun" data-speed="-0.7" data-min="-55" data-max="10" data-screen-presence="0.3">
+        <img src="assets/Slides18-20/Sun02.png" alt="Section3_sun">
+      </div>
+      <div class="image-container" id="section3_tree" data-speed="-1" data-min="-60" data-max="10" data-screen-presence="0.8">
+        <img src="assets/Slides18-20/Trees.png" alt="Section3_tree">
+      </div>
+      <div class="image-container" id="section3_bushes"data-speed="-1" data-min="-50" data-max="10" data-screen-presence="0.8">
+        <img src="assets/Slides18-20/bushes.png" alt="Section3_bushes">
+      </div>
+      <div class="image-container" id="section3_underwater"  data-speed="-0.5" data-min="-20" data-max="1" data-screen-presence="0.8">
+        <img src="assets/Slides18-20/Water_.png" alt="Section3_underwater">
+      </div>
+      <div id="section3octopusContainer"  >
+        <img id="octopus" src="assets/Slides18-20/Octopus_side.png" alt="Octopus">
+      </div>
+      
+      <div id="section3octopusContainershell" >
+        <img id="octopus" src="assets/Slides18-20/Octopus_and_shells.png" alt="Octopus">
+        <div class="overlay-text-shell" id="meetfriends">Meet My Friends</div>
+        <div class="overlay-text-shell" id="feedingfrenzy">Feeding Frenzy</div>
+        <div class="overlay-text-shell" id="foodchain">Build Food Chains</div>
+      </div>
+      <!-- <div id="section3dialogBox">
+        <img id="section3dialogBoxImage" src="assets/Slides18-20/Callout.png" alt="section3dialogBoxImage">
+        <p id="section3dialogText">This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.</p>
+      </div> -->
+      <div class="section3dialogBox" id="section3dialogBoxx" >
+        <img id="section3dialogBoxImage" src="assets/Slides11-17/Callout01.png" alt="Section3dialogBoxImage">
+        <div class="text" id="section3dialogText">
+          This is the dialog text
+        </div>
+      </div>
+
+      <div  id="section3_button"  >
+        <img src="assets/Slides18-20/Start_Adventure.png" alt="Section3_button">
+        <p>Start Adventure</p>
+      </div>
+
+      <div class="image-container" id="section3_water" ><!--data-speed="-0.5" data-min="-20" data-max="1" data-screen-presence="0.8"-->
+        <img src="assets/Slides18-20/Water_octopus.png" alt="Section3_water">
+      </div>
+
+
+              
+
+    </div>
+
+
+    <!-- Gap Between Sections -->
+    <div class="gap" id="gap4" style="display: none;"></div>
+
+      <!-- Forth Section -->
+     <div id="section4" class="section" style="display: none;" >
+
+      <div id="section4nextImage">
+        <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section4nextImage">
+        <p>Scroll Down</p>
+      </div>
+
+        <div class="image-container" id="section4_BG"><!-- data-speed="-0.55" data-min="-130" data-max="10" data-screen-presence="0.3"-->
+          <img src="assets/Slides_25-35/Sky_crop.png" alt="Section4_BG">
+        </div>
+        <div class="image-container" id="section4_sun"    data-speed="-1.5" data-min="-110" data-max="10" data-screen-presence="0.3">
+          <img src="assets/Slides18-20/Sun02.png" alt="Section4_sun">
+        </div>
+        <div class="image-container" id="section4_hill"  data-speed="-2" data-min="-120" data-max="1" data-screen-presence="0.4">
+          <img src="assets/Slides_25-35/Hills.png" alt="Section4_hill">
+        </div>
+        <div class="image-container" id="section4_tree"    data-speed="-2.5" data-min="-98" data-max="1"data-screen-presence="0.6">
+          <img src="assets/Slides_25-35/Trees_ground.png" alt="Section4_tree">
+
+          <div id="section4octopusContainer" class="section4octopusclass"   data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img id="octopus" src="assets/Slides_25-35/octopus.png" alt="Section4octopusContainer">
+          </div>
+
+  
+          <div class="section4dialogBox" id="section4dialogBoxx" >
+            <img id="section4dialogBoxImage" src="assets/Slides18-20/Callout.png" alt="Section3dialogBoxImage">
+            <div class="text" id="section4dialogText">
+              This is the dialog text
+            </div>
+          </div>
+
+
+          <div class="image-container" id="section4_waterover"data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img src="assets/Slides_25-35/Water_over_octopus.png" alt="Section4_waterover">
+          </div>
+          <div class="image-container" id="section4plant"data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img src="assets/Slides_25-35/Yeast_plant.png" alt="Section4plant">
+          </div>
+          <div class="image-container" id="section4plantray"data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img src="assets/Slides_25-35/Yeast_plant_focus.png" alt="Section4plantray">
+          </div>
+          <div class="section4button-container" id="section4button1"data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img src="assets/Slides_25-35/Kelp.png"  alt="section4button1">
+          </div>
+          <div class="section4button-container" id="section4button2"data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img src="assets/Slides_25-35/Grizzly_bear.png"  alt="Section4button2">
+          </div>
+          <div class="section4button-container" id="section4button3"data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+            <img src="assets/Slides_25-35/Salmon.png"  alt="Section4button3">
+          </div>
+
+        </div>
+        <div class="image-container" id="section4_water"     data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+          <img src="assets/Slides_25-35/Water_crop.png" alt="Section4_water">
+          <div class="section4button-container" id="section4button4" >
+            <img src="assets/Slides_25-35/Yeast_crop.png  "  alt="Section4button4">
+          </div>
+        </div>
+
+
+        <!-- <div class="overlay">
+          
+        <div class="image-container" id="popupWindow">
+          <img src="assets/Slides_25-35/Popup_window.png" alt="PopupWindow" />
+           <button id="closePopupBtn" class="close-btn">
+              <img src="assets/Slides_25-35/Popup_window_close.png" alt="Close" />
+          </button>
+           <div class="headings-container">
+              <h1 class="heading heading-1">Language Help</h1>
+          </div>
+          <div class="headings-container2">
+              <h1 class="heading heading-1">Important Words and Phrases</h1>
+          </div>
+           <div id="country-container">
+              <div class="country-list">
+                  <button class="country-btn" data-clicked="assets/Slides_25-35/English_selected.png" data-unclicked="assets/Slides_25-35/English.png">
+                      <img src="assets/Slides_25-35/English_selected.png" alt="English" />
+                      <p id="section4countryText">English</p>
+  
+                  </button>
+              </div>
+              <div class="country-list">
+                  <button class="country-btn"  data-clicked="assets/Slides_25-35/Spanish_selected.png" data-unclicked="assets/Slides_25-35/Spanish.png">
+                      <img src="assets/Slides_25-35/Spanish.png" alt="English" />
+                      <p id="section4countryText">Spanish</p>
+  
+                  </button>
+              </div>
+              <div class="country-list">
+              <button class="country-btn"  data-clicked="assets/Slides_25-35/Tagalog_selected.png" data-unclicked="assets/Slides_25-35/Tagalog.png">
+                  <img src="assets/Slides_25-35/Tagalog.png" alt="English" />
+                  <p id="section4countryText">Tagalog</p>
+  
+                  </button>
+              </div>
+              <div class="country-list">
+                  <button class="country-btn"  data-clicked="assets/Slides_25-35/Cantonese_selected.png" data-unclicked="assets/Slides_25-35/Cantonese.png">
+                      <img src="assets/Slides_25-35/Cantonese.png" alt="English" />
+                      <p id="section4countryText">Cantonese</p>
+  
+                  </button>
+              </div>
+              <div class="country-list">
+              <button class="country-btn"  data-clicked="assets/Slides_25-35/Mandarin_selected.png" data-unclicked="assets/Slides_25-35/Mandarin.png">
+                  <img src="assets/Slides_25-35/Mandarin.png" alt="English" />
+                  <p id="section4countryText">Mandarin</p>
+  
+                  </button>
+              </div>
+          </div>
+          <div class="language-help">
+            <div class="phrase-row">
+                <div class="phrase-box">
+                    <div class="audio-btn" id="lang-audiobtn" data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                    </div>
+                    <div class="phrase-word">Kelp</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">algae and seaweed that live in the ocean</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="phrase-row">
+                <div class="phrase-box">
+                <div class="audio-btn" id="lang-audiobtn"data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                </div>
+                <div class="phrase-word">Shallow</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">Not very deep</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="phrase-row">
+                <div class="phrase-box">
+                <div class="audio-btn" id="lang-audiobtn"data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                </div>                              
+                <div class="phrase-word">Nutrient:</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">Nourishment that helps things grow</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="phrase-row">
+                <div class="phrase-box">
+                <div class="audio-btn" id="lang-audiobtn"data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                </div>                              
+                <div class="phrase-word">Nutrient-rich:</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">having many nutrients</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="phrase-row">
+                <div class="phrase-box">
+                <div class="audio-btn" id="lang-audiobtn"data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                </div>                              
+                <div class="phrase-word">Environment:</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">what surrounds a plant or animal; where a plant or animal lives</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="phrase-row">
+                <div class="phrase-box">
+                <div class="audio-btn" id="lang-audiobtn"data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                </div>                              
+                <div class="phrase-word">Photosynthesis:</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">a process where plants use sunlight to make food</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="phrase-row">
+                <div class="phrase-box">
+                <div class="audio-btn" id="lang-audiobtn"data-audio="assets/audio/kelp.mp3">
+                    <img src="assets/Slides_25-35/Audio_icon.png" alt="">
+                </div>                              
+                <div class="phrase-word">Herbivore:</div>
+                </div>
+                <div class="phrase-box2">
+                    <div class="phrase-definition">an animal that feeds on plants</div>
+                </div>
+            </div>
+          </div>
+          
+          </div>
+          
+        </div> -->
+
+         <!-- Topright Button Container -->
+         <div id="secion5rigthTop" class="Section5Topright">
+
+          <div id="section4ReadHelp">
+            <img id="section4ReadHelpImage" src="assets/Slides_25-35/Reading-Language_button.png" alt="section4ReadHelpImage">
+            <p id="section4ReadHelpText">Language Help</p>
+          </div>
+          <div id="section4Help">
+            <img id="section4HelpImage" src="assets/Slides_25-35/Reading-Language_button.png" alt="section4HelpImage">
+            <p id="section4HelpText">Reading Help</p>
+          </div>
+
+      </div>
+  
+    </div>
+
+  
+
+      <!-- Fifth Section -->
+    <div id="section5" class="section"  style="display: none;"  >
+        <video id="section5bgVideo">
+          <source src="assets/video/Section2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="section5nextImage">
+          <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section5nextImage">
+          <p>Scroll Down</p>
+        </div>
+         
+  
+    </div>
+
+    <!-- Gap Between Sections -->
+    <div class="gap" id="gap6" style="display: none;" ></div>
+
+    <!-- 6th section -->
+    <div id="section6" class="section" style="display: none;">
+
+      <div class="image-container" id="section6wall" ><!-- data-speed="-0.8" data-min="-40" data-max="10" data-screen-presence="0.2"-->
+        <img src="assets/Slides38-42/Sky_crop.png" alt="Section6wall" />
+      </div>
+      <div class="image-container" id="section6_sun"  data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.4" >
+        <img src="assets/Slides18-20/Sun02.png" alt="Section6_sun">
+      </div>
+      <div class="image-container" id="section6_hill" data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.4" >
+        <img src="assets/Slides_25-35/Hills.png" alt="Section6_hill">
+      </div>
+      <div class="image-container" id="section6_tree" data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.4" >
+        <img src="assets/Slides_25-35/Trees_ground.png" alt="Section6_tree">
+
+        <div class="section6button-container" id="section6button1"  >
+          <img class="clickableobject" id="object1" src="assets/Slides38-42/Cougar.png"
+            alt="section6button1"
+            nonvisitedimage="assets/Slides38-42/Cougar.png" 
+            visitedimg="assets/Slides38-42/Cougar_Visited.png">
+        
+        </div>
+        <div class="section6button-container" id="section6button2"  >
+          <img class="clickableobject" id="object2" src="assets/Slides38-42/Wolf.png"
+          alt="Section6button2"
+          nonvisitedimage="assets/Slides38-42/Wolf.png" 
+          visitedimg="assets/Slides38-42/Wolf_Visited.png">
+          
+        </div>
+        <div class="section6button-container" id="section6button3" >
+          <img class="clickableobject" id="object3" src="assets/Slides38-42/Eagle.png"
+            alt="Section6button3"
+            nonvisitedimage="assets/Slides38-42/Eagle.png" 
+            visitedimg="assets/Slides38-42/Eagle_Visited.png">
+          
+        </div>
+        <div class="section6button-container" id="section6button4" >
+          <img class="clickableobject" id="object4" src="assets/Slides38-42/Bear.png"
+          alt="Section6button4"
+          nonvisitedimage="assets/Slides38-42/Bear.png" 
+          visitedimg="assets/Slides38-42/Bear_Visited.png">
+          
+        </div>
+        <div class="section6button-container" id="section6button5">
+          <img class="clickableobject" id="object5" src="assets/Slides38-42/Tree.png"
+            alt="Section6button5"
+            nonvisitedimage="assets/Slides38-42/Tree.png" 
+            visitedimg="assets/Slides38-42/Tree_Visited.png">
+          
+        </div>
+        <div class="section6button-container" id="section6button6">
+          <img class="clickableobject" id="object6" src="assets/Slides38-42/Otter.png"
+            alt="Section6button6"
+            nonvisitedimage="assets/Slides38-42/Otter.png" 
+            visitedimg="assets/Slides38-42/Otter_Visited.png">
+          
+        </div>
+
+        <img class="icon"  id="icon1" src="assets/Slides38-42/More_Info.png" alt="Icon1">
+        <img class="icon"  id="icon2" src="assets/Slides38-42/More_Info.png" alt="Icon2">
+        <img class="icon"  id="icon3" src="assets/Slides38-42/More_Info.png" alt="Icon3">
+        <img class="icon"  id="icon4" src="assets/Slides38-42/More_Info.png" alt="Icon4">
+        <img class="icon"  id="icon5" src="assets/Slides38-42/More_Info.png" alt="Icon5">
+        <img class="icon"  id="icon6" src="assets/Slides38-42/More_Info.png" alt="Icon6">
+        <img class="icon"  id="icon7" src="assets/Slides38-42/More_Info.png" alt="Icon7">
+
+        <div class="question-text" id="customQuestion">
+          Select another organism like kelp, which uses photosynthesis to create its own food. Need help? Select the info icon to learn how these organisms obtain their food.
+        </div>
+
+        <div id="iconpopupcall">
+          <img src="assets/Slides38-42/Blue_callout.png" alt="Iconpopup" />
+          <div id="iconpopuptext">
+            A large grouping of kelp that provides food and shelter for many other species.
+          </div>
+        </div>
+
+      </div>
+      <div class="image-container2" id="section6_water" >
+          <img src="assets/Slides38-42/Water_crop.png" alt="Section6_water">
+
+          <div class="section6button-container" id="section6button7">
+            <img class="clickableobject" id="object7" src="assets/Slides38-42/Fish.png"
+              alt="Section6button7"
+              nonvisitedimage="assets/Slides38-42/Fish.png" 
+              visitedimg="assets/Slides38-42/Fish_Visited.png">
+            
+          </div>
+      </div>
+      
+
+
+
+      <div class="feedback" id="correctfeedback">
+        <div class="feedbackimage">
+          <img id="feedbackimage1" src="assets/Slides38-42/Correct.png" alt="Correct" 
+          correct="assets/Slides38-42/Correct.png"
+          wrong="assets/Slides38-42/Incorrect.png" />
+          <div id="feedbackimage2"></div>  
+          <img id="feedbackimage3"  src="assets/Slides38-42/Tick.png" alt="Tick"
+          correct="assets/Slides38-42/Tick.png"
+          wrong="assets/Slides38-42/Cross.png" /> />
+        </div>
+        
+        <p id="feedbacktext1">Well done!</p>
+        <p id="feedbacktext2">Trees are producers that use photosynthesis to convert sunlight into energy.</p>
+      </div>
+
+    </div>
+
+    <!-- 7th section -->
+    <div class="gap" id="gap7" style="display: none;" ></div>
+
+    <div id="section7" class="section" style="display: none;">
+      <div class="image-container" id="section7wall" >
+        <img src="assets/Slides_25-35/Sky_crop.png" alt="Section7wall" />
+      </div>
+      <div class="image-container" id="section7_sun"  data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.3" >
+        <img src="assets/Slides18-20/Sun02.png" alt="Section7_sun">
+      </div>
+      <div class="image-container" id="section7_hill"  ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Feeding Frenzy/Scene1/Hill.png" alt="Section7_hill">
+      </div>
+      <div class="image-container" id="section7_treeGround"  ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Feeding Frenzy/Scene1/Trees_Ground.png" alt="Section7_treeGround">
+      </div>
+      <div class="image-container" id="section7_treeWood"><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Feeding Frenzy/Scene1/wood.png" alt="Section7_treeWood">
+      </div>
+      <div class="image-container" id="section7_water"  ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Feeding Frenzy/Scene1/bottomlayer.png" alt="Section7_water">
+      </div>
+      
+      <div class="image-container" id="section7_flyingoctopus"  ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Feeding Frenzy/Scene1/Oct.png" alt="Section7_flyingoctopus">
+      </div>
+      <div class="image-container" id="section7_octopus"  ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Feeding Frenzy/Scene1/octopus (1).png" alt="Section7_octopus">
+      </div>
+      <div class="image-container" id="section7_wateraboveOctopus"  ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+        <img src="assets/Slides18-20/Water_octopus.png" alt="Section7_wateraboveOctopus">
+      </div>
+      <div id="section7nextImage">
+        <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section7nextImage">
+        <p>Scroll Down</p>
+      </div>
+    </div>
+
+  <!-- 8th section -->
+    <div class="gap" id="gap8" style="display: none;" ></div>
+
+    <div id="section8" class="section" style="display: none;">
+
+ 
+      <div class="image-container" id="section8toplayerover"  data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+        <img src="assets/Feeding Frenzy/Scene2/Water_Sarface_1920_New.png" alt="section8Toplayerover" />
+      </div>
+
+      <div class="image-container" id="section8BG"  data-speed="null" data-min="null" data-max="null"data-screen-presence="null">
+        <img src="assets/Feeding Frenzy/Scene2/BG.png" alt="Section8BG" />
+      </div>
+
+      <div class="image-container" id="section8element01" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_01.png" alt="Section8element01" />
+      </div>
+      <div class="image-container" id="section8element02" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_02.png" alt="Section8element02" />
+      </div>
+      <div class="image-container" id="section8element03" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_03_test.png" alt="Section8element03" />
+      </div>
+      <div class="image-container" id="section8element04" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_04.png" alt="Section8element04" />
+      </div>
+      <div class="image-container" id="section8element05" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_05_test.png" alt="Section8element05" />
+      </div>
+      <div class="image-container" id="section8element06" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_06.png" alt="Section8element06" />
+      </div>
+
+
+
+      <div class="image-container" id="section8_octopus"  >
+        <img src="assets/Feeding Frenzy/Scene1/octopus (1).png" alt="Section8_octopus">
+      </div>
+      <div class="section8dialogBox" id="section8dialogBoxx" >
+        <img id="section8dialogBoxImage" src="assets/Slides11-17/Callout01.png" alt="Section8dialogBoxImage">
+        <div class="text" id="section8dialogText">
+          This is the dialog text
+        </div>
+      </div>
+      <div  id="section8_WhatEats"  >
+        <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section8_WhatEats">
+        <p>What It Eats</p>
+      </div>
+      <div  id="section8_DragLabel"  >
+        <img src="assets/Feeding Frenzy/Activiry_Title_BG_Box.png" alt="section8_DragLabel">
+        <p>What Does Salmon Eat?</p>
+      </div>
+
+      <div class="image-container" id="section8_fish" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_04.png" alt="Section8_fish">
+      </div>
+      <div class="image-container" id="section8_bear" draggable="true">
+        <img src="assets/Feeding Frenzy/Scene2/Bear.png" alt="Section8_bear">
+        <img id="section8_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section8_drag_disableOverlay">
+        <div class="image-container" id="section8infoBear">
+          <img src="assets/Slides38-42/More_Info.png" alt="Info">
+        </div>
+
+      </div>
+      <div class="image-container" id="section8_mushroom" draggable="true">
+          <img src="assets/Feeding Frenzy/Scene2/Decomposers.png" alt="Section8_mushroom">
+          <img id="section8_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section8_drag_disableOverlay">
+        <div class="image-container" id="section8infoMushroom">
+          <img src="assets/Slides38-42/More_Info.png" alt="Info">
+        </div>
+
+      </div>
+      <div class="image-container" id="section8_plant" draggable="true">
+          <img src="assets/Feeding Frenzy/Scene2/kelp.png" alt="Section8_plant">
+          <img id="section8_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section8_drag_disableOverlay">
+          
+        <div class="image-container" id="section8infoPlant">
+          <img src="assets/Slides38-42/More_Info.png" alt="Info">
+        </div>
+
+      </div>
+      <div class="image-container" id="section8_moveingfish" >
+        <img src="assets/Feeding Frenzy/Scene2/UNderwater_ele_041.png" alt="Section8_fish">
+      </div>
+
+      <div class="image-container" id="section8_dragImage">
+        <img src="assets/Feeding Frenzy/Drop_Zone.png" alt="Section8_dragImage">
+      </div>
+      <div class="image-container drop-area" id="section8_dragArea">
+          <img src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section8_dragArea">
+      </div>
+
+      <div  id="section8_TryAgain"  >
+        <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section8_TryAgain">
+        <p>Try Again</p>
+      </div>
+      <div  id="section8_WatchAction"  >
+        <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section8_WatchAction">
+        <p>Watch Action</p>
+      </div>
+    
+      <div id="section8nextImage">
+        <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section8nextImage">
+        <p>Scroll Down</p>
+      </div>
+
+      <div id="section8discribtionOverlay">
+
+      </div>
+      <div id="section8discribtionPanel">
+        <!-- Close Button -->
+        <div class="image-container" id="section8_discribtionPanel_closebuton">
+            <img src="assets/Feeding Frenzy/Scene2/Close.png" alt="Close">
+        </div>
+
+        <!-- Background -->
+        <div class="image-container" id="section8_discribtionPanel_background">
+            <img src="assets/Feeding Frenzy/Scene2/Popup_BG.png" alt="Background">
+        </div>
+
+        <!-- Main Image -->
+        <div class="image-container" id="section8_discribtionPanel_mainImage">
+            <img src="assets/Slides_25-35/Grizzly_bear_outline.png" alt="Grizzly Bear">
+        </div>
+
+        <!-- Heading -->
+        <div id="section8_discribtionPanel_heading">Grizzly Bear</div>
+
+        <!-- Description Text -->
+        <div id="section8_discribtionPanel_text">
+            <ul>
+                <li><strong>A grizzly bear is an omnivore.</strong> This means it consumes both plants and animals.</li>
+                <li>It eats lots of different things. It will eat salmon and trout. It will also eat nuts, berries, and grasses.</li>
+                <li>It will change its diet throughout the year and eat more before a winter <strong>hibernation.</strong> This means it goes into a deep sleep in winter.</li>
+                <li>A grizzly bear has no <strong>predators.</strong> It is an apex predator. This means it is at the top of the food chain.</li>
+            </ul>
+        </div>
+
+        <!-- Bottom Text -->
+        <div class="bottom-text">Select the X button to go back to the main screen.</div>
+
+      </div>
+
+
+    </div>
+
+  <!-- 9th section -->
+  <div class="gap" id="gap9" style="display: none;" ></div>
+
+  <div id="section9" class="section" style="display: none;">
+    <div class="image-container" id="section9wall" >
+      <img src="assets/Slides38-42/Sky_crop.png" alt="Section9wall" />
+    </div>
+    <div class="image-container" id="section9_sun"  data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.3" >
+      <img src="assets/Slides18-20/Sun02.png" alt="Section9_sun">
+    </div>
+    <div class="image-container" id="section9_hill"  data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.35" ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+      <img src="assets/Feeding Frenzy/Scene1/Hill.png" alt="Section9_hill">
+    </div>
+    <div class="image-container" id="section9_treeGround"  data-speed="-0.6" data-min="-50" data-max="10" data-screen-presence="0.5" ><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+      <img src="assets/Feeding Frenzy/Scene1/Trees_Ground.png" alt="Section9_treeGround">
+      <div class="image-container" id="section9_treeWood">
+        <img src="assets/Feeding Frenzy/Scene1/wood.png" alt="Section9_treeWood">
+      </div>
+    </div>
+
+    <div class="image-container" id="section9_water"  data-speed="null" data-min="null" data-max="null" data-screen-presence="null" > 
+      <img src="assets/Feeding Frenzy/Scene3/bottomlayer.png" alt="Section9_water">
+    </div>
+    
+    <div class="image-container" id="section9_octopus"   data-speed="-0.6" data-min="-55" data-max="10" data-screen-presence="0.7"><!--  data-speed="-0.15" data-min="-10" data-max="10" data-screen-presence="0.4" -->
+      <img src="assets/Feeding Frenzy/Scene1/octopus (1).png" alt="Section9_octopus">
+    </div>
+
+    <div class="image-container" id="section9_wateraboveOctopus"  >
+      <img src="assets/Slides18-20/Water_octopus.png" alt="Section9_wateraboveOctopus">
+    </div>
+
+    <div class="section9dialogBox" id="section9dialogBoxx" >
+      <img id="section9dialogBoxImage" src="assets/Slides11-17/Callout01.png" alt="Section9dialogBoxImage">
+      <div class="text" id="section9dialogText">
+        This is the dialog text
+      </div>
+    </div>
+
+    <div  id="section9_SortitOut"  >
+      <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section9_SortitOut">
+      <p>Sort it Out</p>
+    </div>
+
+    <div class="dragarea_label"  id="section9_Title_label"  >
+      <img src="assets/Feeding Frenzy/Activiry_Title_BG_Box.png" alt="Section9_producers_label">
+      <p>Sort the Organisms</p>
+    </div>
+
+    <div class="dragarea_label"  id="section9_producers_label"  >
+      <img src="assets/Feeding Frenzy/Drop box yellow title BG.png" alt="Section9_producers_label">
+      <p>Producers</p>
+    </div>
+    <div class="dragarea_label" id="section9_consumer_label"  >
+      <img src="assets/Feeding Frenzy/Drop box yellow title BG.png" alt="Section9_consumer_label">
+      <p>Consumers</p>
+    </div>
+    <div class="dragarea_label" id="section9_decomposer_label"  >
+      <img src="assets/Feeding Frenzy/Drop box yellow title BG.png" alt="Section9_decomposer_label">
+      <p>Decomposers</p>
+    </div>
+   
+
+    <!-- Draggable Items -->
+    <div class="draggable-container">
+      <div class="image-container_drag" id="section9_bear">
+        <img id="section9_dragImage" src="assets/Feeding Frenzy/Scene2/Bear.png" alt="Section9_bear" data-original-id="section9_bear"  draggable="true">
+        <img id="section9_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section9_drag_disableOverlay" draggable="false">
+      </div>
+      <div class="image-container_drag" id="section9_mushroom">
+          <img id="section9_dragImage" src="assets/Feeding Frenzy/Scene2/Decomposers.png" alt="Section9_mushroom" data-original-id="section9_mushroom"  draggable="true">
+          <img id="section9_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section9_drag_disableOverlay" draggable="false">
+
+      </div>
+      <div class="image-container_drag" id="section9_plant" >
+           <img id="section9_dragImage" src="assets/Feeding Frenzy/Scene2/kelp.png" alt="Section9_plant" data-original-id="section9_plant"  draggable="true">
+           <img id="section9_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section9_drag_disableOverlay" draggable="false">
+
+      </div>
+      <div class="image-container_drag" id="section9_fish" >
+           <img id="section9_dragImage" src="assets/Feeding Frenzy/Scene2/Salmon (1).png" alt="Section9_fish" data-original-id="section9_fish"  draggable="true">
+           <img id="section9_drag_disableOverlay" src="assets/Feeding Frenzy/Disable_Option_Overly_Box.png" alt="Section9_drag_disableOverlay" draggable="false">
+
+      </div>
+    </div>
+
+    <!-- Drop Areas -->
+    <div class="container">
+        <div class="drop-area_section9" id="section9_dragArea1"></div>
+        <div class="drop-area_section9" id="section9_dragArea2"></div>
+        <div class="drop-area_section9" id="section9_dragArea3"></div>
+    </div>
+
+    <div  id="section9_SubmitButton"  >
+      <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section9_SortitOut">
+      <p>Submit</p>
+    </div>
+    <div  id="section9_TryAgainButton"  >
+      <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section9_SortitOut">
+      <p>Try Again</p>
+    </div>
+    <div  id="section9_CorrectAnswer"  >
+      <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section9_CorrectAnswer">
+      <p>Correct Answer</p>
+    </div>
+
+    <div  id="section9_ok"  >
+      <img src="assets/Feeding Frenzy/Button_BG.png" alt="Section9_Ok">
+      <p>OK</p>
+    </div>
+
+    <!-- <div id="section9nextImage">
+      <img src="assets/Slides11-17/Scroll_down_button.png" alt="Section9nextImage">
+      <p>Scroll Down</p>
+    </div> -->
+
+
+
+
+  </div>
+
+
+ 
+
+ <script src="script.js"></script>
+</body>
+</html>
