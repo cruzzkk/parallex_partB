@@ -1143,7 +1143,7 @@ body {
     object-fit: contain;
     
     z-index: 7;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,0%);
     
 }
 

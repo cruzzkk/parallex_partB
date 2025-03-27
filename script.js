@@ -7,8 +7,11 @@
         'assets/Slides_25-35/Audio_button.png', 'assets/Slides_25-35/Audio_button_Mute.png', 'assets/Slides_25-35/Audio_icon.png', 'assets/Slides_25-35/Audio_icon_selected.png', 'assets/Slides_25-35/Cantonese.png', 'assets/Slides_25-35/Cantonese_selected.png', 'assets/Slides_25-35/English.png', 'assets/Slides_25-35/English_selected.png', 'assets/Slides_25-35/Grizzly_bear.png', 'assets/Slides_25-35/Grizzly_bear_outline.png', 'assets/Slides_25-35/Hills.png', 'assets/Slides_25-35/Kelp.png', 'assets/Slides_25-35/Kelp_outline.png', 'assets/Slides_25-35/Mandarin.png', 'assets/Slides_25-35/Mandarin_selected.png', 'assets/Slides_25-35/octopus.png', 'assets/Slides_25-35/Pause_Button.png', 'assets/Slides_25-35/Photo01.png', 'assets/Slides_25-35/Photo02.png', 'assets/Slides_25-35/Photo03.png', 'assets/Slides_25-35/Photo04.png', 'assets/Slides_25-35/Plau_Button.png', 'assets/Slides_25-35/Popup_window.png', 'assets/Slides_25-35/Popup_window_close.png', 'assets/Slides_25-35/Reading-Language_button.png', 'assets/Slides_25-35/Reading-Language_button_Selected.png', 'assets/Slides_25-35/Reading_Help_popup.png', 'assets/Slides_25-35/Replay_Button.png', 'assets/Slides_25-35/Salmon.png', 'assets/Slides_25-35/Salmon_outline.png', 'assets/Slides_25-35/Sky_crop.png', 'assets/Slides_25-35/Spanish.png', 'assets/Slides_25-35/Spanish_selected.png', 'assets/Slides_25-35/Tagalog.png', 'assets/Slides_25-35/Tagalog_selected.png', 'assets/Slides_25-35/Trees_ground.png', 'assets/Slides_25-35/Water_crop.png', 'assets/Slides_25-35/Water_over_octopus.png', 'assets/Slides_25-35/Yeast_crop.png', 'assets/Slides_25-35/Yeast_outline_01.png', 'assets/Slides_25-35/Yeast_plant.png', 'assets/Slides_25-35/Yeast_plant_focus.png',
         'assets/Slides11-17/Callout01.png', 'assets/Slides11-17/Consumers.png', 'assets/Slides11-17/Consumers01.png', 'assets/Slides11-17/Consumers_text_box.png', 'assets/Slides11-17/Curved_arrow.png', 'assets/Slides11-17/Curved_arrow_highlighted.png', 'assets/Slides11-17/Decomposers.png', 'assets/Slides11-17/Decomposers_text_box.png', 'assets/Slides11-17/Garden_crop.png', 'assets/Slides11-17/Grass_top_layer.png', 'assets/Slides11-17/Grass_top_layer_crop.png', 'assets/Slides11-17/House_CROP_2.png', 'assets/Slides11-17/Mountains_01.png', 'assets/Slides11-17/Octopus_inset.png', 'assets/Slides11-17/Parallax_scroll_BG_updated.png', 'assets/Slides11-17/popup_close.png', 'assets/Slides11-17/Popup_text_box.png', 'assets/Slides11-17/Producers-Consumers_text_box.png', 'assets/Slides11-17/Producers.png', 'assets/Slides11-17/Producers_text_box.png', 'assets/Slides11-17/Scroll_down_button.png', 'assets/Slides11-17/Sun_01.png', 'assets/Slides11-17/Tree.png','assets/Slides11-17/Fullscreen_Exit_button.png',
         'assets/Slides18-20/bushes.png', 'assets/Slides18-20/Callout.png', 'assets/Slides18-20/Octopus_and_shells.png', 'assets/Slides18-20/Octopus_and_water.png', 'assets/Slides18-20/Octopus_side.png', 'assets/Slides18-20/Replay_Button.png', 'assets/Slides18-20/Sky_corp.png', 'assets/Slides18-20/Start_Adventure.png', 'assets/Slides18-20/Sun02.png', 'assets/Slides18-20/Trees.png', 'assets/Slides18-20/Water_.png', 'assets/Slides18-20/Water_octopus.png',
-        'assets/Slides38-42/Bear.png', 'assets/Slides38-42/Bear_Visited.png', 'assets/Slides38-42/Blue_callout.png', 'assets/Slides38-42/Correct.png', 'assets/Slides38-42/Cougar.png', 'assets/Slides38-42/Cougar_Visited.png', 'assets/Slides38-42/Cross.png', 'assets/Slides38-42/Eagle.png', 'assets/Slides38-42/Eagle_Visited.png', 'assets/Slides38-42/Fish.png', 'assets/Slides38-42/Fish_Visited.png', 'assets/Slides38-42/Incorrect.png', 'assets/Slides38-42/More_Info.png', 'assets/Slides38-42/Otter.png', 'assets/Slides38-42/Otter_Visited.png', 'assets/Slides38-42/Sky_crop.png', 'assets/Slides38-42/Tick.png', 'assets/Slides38-42/Tree.png', 'assets/Slides38-42/Trees.png', 'assets/Slides38-42/Tree_Visited.png', 'assets/Slides38-42/Water_crop.png', 'assets/Slides38-42/Wolf.png', 'assets/Slides38-42/Wolf_Visited.png'
-        
+        'assets/Slides38-42/Bear.png', 'assets/Slides38-42/Bear_Visited.png', 'assets/Slides38-42/Blue_callout.png', 'assets/Slides38-42/Correct.png', 'assets/Slides38-42/Cougar.png', 'assets/Slides38-42/Cougar_Visited.png', 'assets/Slides38-42/Cross.png', 'assets/Slides38-42/Eagle.png', 'assets/Slides38-42/Eagle_Visited.png', 'assets/Slides38-42/Fish.png', 'assets/Slides38-42/Fish_Visited.png', 'assets/Slides38-42/Incorrect.png', 'assets/Slides38-42/More_Info.png', 'assets/Slides38-42/Otter.png', 'assets/Slides38-42/Otter_Visited.png', 'assets/Slides38-42/Sky_crop.png', 'assets/Slides38-42/Tick.png', 'assets/Slides38-42/Tree.png', 'assets/Slides38-42/Trees.png', 'assets/Slides38-42/Tree_Visited.png', 'assets/Slides38-42/Water_crop.png', 'assets/Slides38-42/Wolf.png', 'assets/Slides38-42/Wolf_Visited.png',
+        'assets/Feeding Frenzy/Activiry_Title_BG_Box.png','assets/Feeding Frenzy/Button_BG.png','assets/Feeding Frenzy/Disable_Option_Overly_Box.png','assets/Feeding Frenzy/Drop box yellow title BG.png','assets/Feeding Frenzy/Drop_Zone.png',
+        'assets/Feeding Frenzy/Scene1/bottomlayer.png','assets/Feeding Frenzy/Scene1/CropWatertest2.png','assets/Feeding Frenzy/Scene1/Hill.png','assets/Feeding Frenzy/Scene1/Oct.png','assets/Feeding Frenzy/Scene1/octopus (1).png','assets/Feeding Frenzy/Scene1/Text_box.png','assets/Feeding Frenzy/Scene1/Trees_Ground.png','assets/Feeding Frenzy/Scene1/wood.png',
+        'assets/Feeding Frenzy/Scene2/Bear.png','assets/Feeding Frenzy/Scene2/BG.png','assets/Feeding Frenzy/Scene2/Close.png','assets/Feeding Frenzy/Scene2/Cross.png','assets/Feeding Frenzy/Scene2/Cross_Activity_02.png','assets/Feeding Frenzy/Scene2/Decomposers.png','assets/Feeding Frenzy/Scene2/Drop_box.png','assets/Feeding Frenzy/Scene2/kelp.png','assets/Feeding Frenzy/Scene2/Popup_BG.png','assets/Feeding Frenzy/Scene2/Salmon (1).png','assets/Feeding Frenzy/Scene2/Tic.png','assets/Feeding Frenzy/Scene2/Tic_Activity_02.png','assets/Feeding Frenzy/Scene2/toplayer.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_01.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_02.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_03.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_03_test.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_04.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_041.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_05.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_05_test.png','assets/Feeding Frenzy/Scene2/UNderwater_ele_06.png','assets/Feeding Frenzy/Scene2/under_water_Full.png','assets/Feeding Frenzy/Scene2/Water_BG.png','assets/Feeding Frenzy/Scene2/Water_Sarface_1920_New.png',
+        'assets/Feeding Frenzy/Scene3/bottomlayer.png'
         ];
     
         // Audio files
@@ -23,22 +26,22 @@
         const audio9 = new Audio("assets/audio/Audios/Select_another_organism_like.wav");
         const audio10 = new Audio("assets/audio/Audios/Select_hotspots_Youll_collect.wav");
         
-        const audio_test=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
+        const audio_section7=new Audio("assets/audio/Part_B_Audio/section7.mp3");
         
-        const audio_test1=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_test2=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_test3=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_test4=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
+        const audio_section8_01=new Audio("assets/audio/Part_B_Audio/section8_01.mp3");
+        const audio_section8_02=new Audio("assets/audio/Part_B_Audio/section8_02.mp3");
+        const audio_section8_03=new Audio("assets/audio/Part_B_Audio/section8_03.mp3");
+        const audio_section8_04=new Audio("assets/audio/Part_B_Audio/section8_04.mp3");
     
-        const audio_section9_test1=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_section9_test2=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_section9_test3=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_section9_test4=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_section9_test5=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
-        const audio_section9_test6=new Audio("assets/audio/Audios/You_can_also_click_on_any_glo.wav");
+        const audio_section9_01=new Audio("assets/audio/Part_B_Audio/section9_01.mp3");
+        const audio_section9_02=new Audio("assets/audio/Part_B_Audio/section9_02.mp3");
+        const audio_section9_03=new Audio("assets/audio/Part_B_Audio/section9_03.mp3");
+        const audio_section9_04=new Audio("assets/audio/Part_B_Audio/section9_04.mp3");
+        const audio_section9_05=new Audio("assets/audio/Part_B_Audio/section9_05.mp3");
+        const audio_section9_06=new Audio("assets/audio/Part_B_Audio/section9_06.mp3");
         const audiosToPreload = [audio1, audio2, audio3, audio4, audio5, audio6, audio7, audio8, audio10,
-             audio9,audio_test,audio_test1,audio_test2,audio_test3,audio_test4,
-             audio_section9_test1,audio_section9_test2,audio_section9_test3,audio_section9_test4,audio_section9_test5,audio_section9_test6];
+             audio9,audio_section7,audio_section8_01,audio_section8_02,audio_section8_03,audio_section8_04,
+             audio_section9_01,audio_section9_02,audio_section9_03,audio_section9_04,audio_section9_05,audio_section9_06];
 
 // Function to preload images
 function preloadImages(images, callback) {
@@ -256,6 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let section8pausedTime = 0;
     let section8isPaused = false;
     let section8animationFrameId = null;
+    let section8animationFrameIdfish = null;
     let section8lastAnimationParams = null;
     let section8lastAnimationParamsfish = null;
     let section8panel = document.getElementById("section8discribtionPanel");
@@ -505,24 +509,24 @@ document.addEventListener("DOMContentLoaded", () => {
             break;
             case 'section7':
                 section7mute=!section7mute;
-                audio_test.muted = section7mute;
+                audio_section7.muted = section7mute;
                 currentAudio.muted=section7mute;
                 commonsoundbutton.querySelector("img").src = section7mute ? "assets/Slides_25-35/Audio_button_Mute.png" : "assets/Slides_25-35/Audio_button.png";
             break;
             case 'section8':
                 section8mute=!section8mute;
-                audio_test1.muted = section8mute;
-                audio_test2.muted = section8mute;
-                audio_test3.muted = section8mute;
-                audio_test4.muted = section8mute;
+                audio_section8_01.muted = section8mute;
+                audio_section8_02.muted = section8mute;
+                audio_section8_03.muted = section8mute;
+                audio_section8_04.muted = section8mute;
                 currentAudio.muted=section8mute;
                 commonsoundbutton.querySelector("img").src = section8mute ? "assets/Slides_25-35/Audio_button_Mute.png" : "assets/Slides_25-35/Audio_button.png";
             break;
             case 'section9':
                 section9mute=!section9mute;
-                audio_section9_test1.muted = section9mute;audio_section9_test2.muted = section9mute;
-                audio_section9_test3.muted = section9mute;audio_section9_test4.muted = section9mute;
-                audio_section9_test5.muted = section9mute;audio_section9_test6.muted = section9mute;                
+                audio_section9_01.muted = section9mute;audio_section9_06.muted = section9mute;
+                audio_section9_02.muted = section9mute;audio_section9_05.muted = section9mute;
+                audio_section9_03.muted = section9mute;audio_section9_04.muted = section9mute;                
                 currentAudio.muted=section9mute;
                 commonsoundbutton.querySelector("img").src = section9mute ? "assets/Slides_25-35/Audio_button_Mute.png" : "assets/Slides_25-35/Audio_button.png";
             break;
@@ -694,10 +698,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     if(section7played){
                         section7played=!section7played;
                          
-                        const audio = audiosToPreload[10];
-                        if (isAudioPlaying(audio)) {
-                            audio.pause();
-                            section7pausedAudio=audio;
+                         
+                        if (isAudioPlaying(audio_section7)) {
+                            audio_section7.pause();
+                            section7pausedAudio=audio_section7;
                         }
                         if(animationFrameId){
                             isPaused=true;
@@ -768,6 +772,8 @@ document.addEventListener("DOMContentLoaded", () => {
                        section8pausedTime += performance.now() - section8startTime; 
                        cancelAnimationFrame(section8animationFrameId);
                        section8animationFrameId = null;
+                       cancelAnimationFrame(section8animationFrameIdfish);
+                       section8animationFrameIdfish = null;
 
                     }else{
 
@@ -1049,24 +1055,24 @@ document.addEventListener("DOMContentLoaded", () => {
         section9ActionStart = false;
         section9_submit_pressed = 0;
 
-        audio_section9_test1.muted = section8mute;
-        audio_section9_test1.currentTime = 0;
-        audio_section9_test1.pause();
-        audio_section9_test2.muted = section8mute;
-        audio_section9_test2.currentTime = 0;
-        audio_section9_test2.pause();
-        audio_section9_test3.muted = section8mute;
-        audio_section9_test3.currentTime = 0;
-        audio_section9_test3.pause();
-        audio_section9_test4.muted = section8mute;
-        audio_section9_test4.currentTime = 0;
-        audio_section9_test4.pause();
-        audio_section9_test5.muted = section8mute;
-        audio_section9_test5.currentTime = 0;
-        audio_section9_test5.pause();
-        audio_section9_test6.muted = section8mute;
-        audio_section9_test6.currentTime = 0;
-        audio_section9_test6.pause();
+        audio_section9_01.muted = section8mute;
+        audio_section9_01.currentTime = 0;
+        audio_section9_01.pause();
+        audio_section9_02.muted = section8mute;
+        audio_section9_02.currentTime = 0;
+        audio_section9_02.pause();
+        audio_section9_03.muted = section8mute;
+        audio_section9_03.currentTime = 0;
+        audio_section9_03.pause();
+        audio_section9_04.muted = section8mute;
+        audio_section9_04.currentTime = 0;
+        audio_section9_04.pause();
+        audio_section9_05.muted = section8mute;
+        audio_section9_05.currentTime = 0;
+        audio_section9_05.pause();
+        audio_section9_06.muted = section8mute;
+        audio_section9_06.currentTime = 0;
+        audio_section9_06.pause();
 
         section9dialogBox.style.display = "none";;
         section9_SortitOut.style.display = "none";
@@ -1119,18 +1125,18 @@ document.addEventListener("DOMContentLoaded", () => {
         commonplayButton.querySelector("img").src = "assets/Slides_25-35/Plau_Button.png";
         section8ActionStart = false;
 
-        audio_test1.muted = section8mute;
-        audio_test1.currentTime = 0;
-        audio_test1.pause();
-        audio_test2.muted = section8mute;
-        audio_test2.currentTime = 0;
-        audio_test2.pause();
-        audio_test3.muted = section8mute;
-        audio_test3.currentTime = 0;
-        audio_test3.pause();
-        audio_test4.muted = section8mute;
-        audio_test4.currentTime = 0;
-        audio_test4.pause();
+        audio_section8_01.muted = section8mute;
+        audio_section8_01.currentTime = 0;
+        audio_section8_01.pause();
+        audio_section8_02.muted = section8mute;
+        audio_section8_02.currentTime = 0;
+        audio_section8_02.pause();
+        audio_section8_03.muted = section8mute;
+        audio_section8_03.currentTime = 0;
+        audio_section8_03.pause();
+        audio_section8_04.muted = section8mute;
+        audio_section8_04.currentTime = 0;
+        audio_section8_04.pause();
         errorAudio.muted = section8mute;
         errorAudio.currentTime = 0;
         errorAudio.pause();
@@ -1141,6 +1147,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //pausedTime = 0; // Store elapsed time when paused
         //animationFrameId = null; // Store requestAnimationFrame ID
         section8_movingoctopus.style.display = "none";
+        section8_movingoctopus.style.top = "15%";
         section8dialogBox.style.display = "none";
         section8_WhatEats.style.display = "none";
         section8_TryAgain.style.display = "none";
@@ -1172,11 +1179,12 @@ document.addEventListener("DOMContentLoaded", () => {
         section7ActionStart = false;
         normaloctopus.style.display = "none";
         flyingoctopus.style.display = "none";
+        flyingoctopus.style.top="-60%";
         section7nextImage.style.display = "none";
 
-        audio_test.muted = section7mute;
-        audio_test.currentTime = 0;
-        audio_test.pause();
+        audio_section7.muted = section7mute;
+        audio_section7.currentTime = 0;
+        audio_section7.pause();
         startTime = null;
         pausedTime = 0; // Store elapsed time when paused
         animationFrameId = null;
@@ -1825,13 +1833,16 @@ document.addEventListener("DOMContentLoaded", () => {
     meetfriends_button.addEventListener('click', () => {
 
         if(section3played){
-            feedingfrenzy_button.style.pointerEvents="none";//       [Need to add in Reset]
+            //feedingfrenzy_button.style.pointerEvents="none";//       [Need to add in Reset]
             document.getElementById("gap4").style.display="block";
             section4.style.overflow="visible";
             section4.style.display="block"
             section7.style.display="none";
+            document.getElementById("gap7").style.display="none";
             section8.style.display="none";
+            document.getElementById("gap8").style.display="none";
             section9.style.display="none";
+            document.getElementById("gap9").style.display="none";
             // smoothScrollTo(section4,2000);
             document.getElementById("section3nextImage").style.display="block";
         }
@@ -1842,18 +1853,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if(section3played){
           
-            meetfriends_button.style.pointerEvents="none";//       [Need to add in Reset]
-             document.getElementById("gap7").style.display="block";
+            //meetfriends_button.style.pointerEvents="none";//       [Need to add in Reset]
+            document.getElementById("gap7").style.display="block";
             // section4.style.overflow="visible";
              section7.style.display="block";
              Section7Restart();
              section4.style.display="none";
+             document.getElementById("gap4").style.display="none";
              section5.style.display="none";
              section6.style.display="none";
+             document.getElementById("gap6").style.display="none";
              document.getElementById("section3nextImage").style.display="block";
-             smoothScrollToSceneandTrigger(section7,2000,function(){
-                section7triggerActions();
-             });
+            //  smoothScrollToSceneandTrigger(section7,2000,function(){
+               
+            //  });
+             section7triggerActions();
             
         }
 
@@ -2981,12 +2995,12 @@ document.addEventListener("DOMContentLoaded", () => {
         normaloctopus.style.display="block";
         flyingoctopus.style.display="none";
         unfreezeScroll();
-        audio_test.play().catch((error) => {
+        audio_section7.play().catch((error) => {
             console.error('Error playing audio:', error);
         });
 
     }
-    audio_test.addEventListener("ended", () => {
+    audio_section7.addEventListener("ended", () => {
         section7nextImage.style.display = "block";
         document.getElementById("gap8").style.display="block";
         section8.style.display="block";
@@ -3041,7 +3055,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //SECTION 8 ENABLE
         movingFlyingOctopus(15, 80, 3000, section8_movingoctopus,function() {
             console.log("Animation complete! Action triggered.");
-            audio_test1.play().catch((error) => {
+            audio_section8_01.play().catch((error) => {
                 console.error('Error playing audio:', error);
             });
             section8dialogBox.style.display = "inline-block";
@@ -3115,7 +3129,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //     adjustSection8ImageHeight();
     // });
 
-    audio_test1.addEventListener("ended", () => {
+    audio_section8_01.addEventListener("ended", () => {
        
         section8_WhatEats.style.display='block';
     });
@@ -3131,14 +3145,14 @@ document.addEventListener("DOMContentLoaded", () => {
             "<span style='color:#BC0404;font-style: italic;'>Select the info icon to view the info card about the organisms in the options.</span>";
             
             adjustSection8ImageHeight();
-            audio_test2.play().catch((error) => {
+            audio_section8_02.play().catch((error) => {
                 console.error('Error playing audio:', error);
             });
         }
         
 
     });
-    audio_test2.addEventListener("ended", () => {
+    audio_section8_02.addEventListener("ended", () => {
        
         section8dialogBox.style.display = "none";
 
@@ -3167,8 +3181,8 @@ document.addEventListener("DOMContentLoaded", () => {
         
         const correctTickSrc = "assets/Feeding Frenzy/Scene2/Tic.png"; // ✅ Path to tick image
         const wrongCrossSrc = "assets/Feeding Frenzy/Scene2/cross.png"; // ❌ Path to cross image
-        const errorSoundSrc = "assets/audio/Audios/You_can_also_click_on_any_glo.wav"; // Path to error sound
-        const correctSoundSrc = "assets/audio/Audios/You_can_also_click_on_any_glo.wav"; // Path to error sound
+        const errorSoundSrc = "assets/audio/Part_B_Audio/section8_03_oops.mp3"; // Path to error sound
+        const correctSoundSrc = "assets/audio/Part_B_Audio/section8_03_bravo.mp3"; // Path to error sound
         const wrongFeedbackText="Oops, that's not quite right. Try again!";
         const correctFeedbackText="Bravo! Well done! The salmon eat kelp";
         // Create reusable audio instances
@@ -3349,15 +3363,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 section8dialogText.innerHTML = "Salmon eat kelp, a type of seaweed that gives them energy and nutrients to grow and stay healthy.";
                 
                 adjustSection8ImageHeight();
-                audio_test3.play().catch((error) => {
+                audio_section8_03.play().catch((error) => {
                     console.error('Error playing audio:', error);
                 });
                 section8startTime=null;
                 section8pausedTime = 0;
-                movingFish(0, 105, 3000, section8_moveingfish,function() {
-                    console.log("Fish Animation complete! Action triggered.");
+                movingFish(0, 59, 3000, section8_moveingfish,function() {
+                    console.log("Fish Animation complete! Action triggered11.");
                     // Reset pause time
-                    section8_moveingfish.style.display = "none";
+                    //section8_moveingfish.style.display = "none";
                     
                 });
                
@@ -3366,26 +3380,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
 
-        audio_test3.addEventListener("ended", () => {
+        audio_section8_03.addEventListener("ended", () => {
            
             section8dialogText.innerHTML = "You did it!"+
                 "<br>Let's check out your sorting skills!"+
                 "<br><span style='color:#BC0404;font-style: italic;'>Scroll down to move ahead.</span>";
                 
                 adjustSection8ImageHeight();
-                audio_test4.play().catch((error) => {
+                audio_section8_04.play().catch((error) => {
                     console.error('Error playing audio:', error);
+                });
+                cancelAnimationFrame(section8animationFrameIdfish);
+                section8animationFrameIdfish = null;
+                section8lastAnimationParamsfish=null;
+                section8pausedTime = null; // Reset pause time
+                section8startTime=null;
+                movingFish(59, 105, 3000, section8_moveingfish,function() {
+                    console.log("Fish Animation complete! Action triggered22.");
+                    // Reset pause time
+                    section8_moveingfish.style.display = "none";
+                    section8animationFrameIdfish = null;
+                    section8lastAnimationParamsfish=null;
+                    section8pausedTime = null; // Reset pause time
+                    section8startTime=null;
+                    
                 });
         });
 
-        audio_test4.addEventListener("ended", () => {
+        audio_section8_04.addEventListener("ended", () => {
             section8nextImage.style.display="block";
             //Section 9 Start
             document.getElementById("gap9").style.display="block";
             section9.style.display="block";
-            Section9Restart();
-            smoothScrollToSceneandTrigger(section9,2000,function(){
-                section9triggerActions();
+            
+            smoothScrollToSceneandTrigger(section9,3000,function(){
+               Section9Restart();
+               section9triggerActions();
             });
         });
 
@@ -3500,9 +3530,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 fish.style.left = currentY + "%";
         
                 if (t < 1) {
-                    section8animationFrameId = requestAnimationFrame(animate);
+                    section8animationFrameIdfish = requestAnimationFrame(animate);
                 } else {
-                    section8animationFrameId = null;
+                    section8animationFrameIdfish = null;
                     section8lastAnimationParamsfish=null;
                     section8pausedTime = 0; // Reset pause time
                     if (onComplete) {
@@ -3511,7 +3541,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
         
-            section8animationFrameId = requestAnimationFrame(animate);
+            section8animationFrameIdfish = requestAnimationFrame(animate);
         }
         
         
@@ -3571,13 +3601,13 @@ document.addEventListener("DOMContentLoaded", () => {
          "Help me sort the organisms into producers, consumers and decomposers?<br><span style='color:#BC0404;font-style: italic;'>Select 'Sort it Out' to see the options.</span>.";
         
         adjustSection9ImageHeight();
-        audio_section9_test1.play().catch((error) => {
+        audio_section9_01.play().catch((error) => {
             console.error('Error playing audio:', error);
         });
        
     }
 
-    audio_section9_test1.addEventListener("ended", () => {
+    audio_section9_01.addEventListener("ended", () => {
         section9_SortitOut.style.display="block";
     });
     section9_SortitOut.addEventListener("click", () => {
@@ -3589,7 +3619,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "<span style='color:#BC0404;font-style: italic;'>Drag and drop each organism into the correct category. Once you're done sorting, select Submit.</span>.";
             
             adjustSection9ImageHeight();
-            audio_section9_test2.play().catch((error) => {
+            audio_section9_02.play().catch((error) => {
                 console.error('Error playing audio:', error);
             });
             EnableContainersection9();
@@ -3598,7 +3628,7 @@ document.addEventListener("DOMContentLoaded", () => {
          
     });
 
-    audio_section9_test2.addEventListener("ended", () => {
+    audio_section9_02.addEventListener("ended", () => {
        enableDraggingSection9();
        submitButton_section9.style.display="block";
     });
@@ -3754,7 +3784,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         "Think again."+"<br>Almost there!";
                         
                         adjustSection9ImageHeight();
-                        audio_section9_test3.play().catch((error) => {
+                        audio_section9_03.play().catch((error) => {
                             console.error('Error playing audio:', error);
                         });
                     break;
@@ -3769,7 +3799,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         "<br><span style='color:#BC0404;font-style: italic;'>Select Coorect Answer to check the correct sorting.</span>";
                         
                         adjustSection9ImageHeight();
-                        audio_section9_test4.play().catch((error) => {
+                        audio_section9_04.play().catch((error) => {
                             console.error('Error playing audio:', error);
                         });
                     break;
@@ -3781,10 +3811,10 @@ document.addEventListener("DOMContentLoaded", () => {
         } 
     });
 
-    audio_section9_test3.addEventListener("ended", () => {
+    audio_section9_03.addEventListener("ended", () => {
         section9_TryAgainButton.style.display="block";
     });
-    audio_section9_test4.addEventListener("ended", () => {
+    audio_section9_04.addEventListener("ended", () => {
         correctAnswerButton.style.display="block";
         submitButton_section9.style.display="none";
         section9_TryAgainButton.style.display="none";
@@ -3894,24 +3924,24 @@ document.addEventListener("DOMContentLoaded", () => {
         "Here, these organisms are sorted by category.Produers make their own food, consumers eat other organisms, and decomposers break down dead organisms.";
          
         adjustSection9ImageHeight();
-        audio_section9_test5.play().catch((error) => {
+        audio_section9_05.play().catch((error) => {
             console.error('Error playing audio:', error);
         });
         }
     });
      
     
-    audio_section9_test5.addEventListener("ended", () => {
+    audio_section9_05.addEventListener("ended", () => {
         section9dialogText.innerHTML =
         "Well done! <span style='font-weight:bold;'>Producers </span> make their own food.<span style='font-weight:bold;'>Consumers</span> eat other organisms.<span style='font-weight:bold;'>Decomposers</span> break down dead organisms.";
          
         adjustSection9ImageHeight();
-        audio_section9_test6.play().catch((error) => {
+        audio_section9_06.play().catch((error) => {
             console.error('Error playing audio:', error);
         });
     });
 
-    audio_section9_test6.addEventListener("ended", () => {
+    audio_section9_06.addEventListener("ended", () => {
         section9_ok.style.display="block";
     });
     
